@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>PankIt - Dive into cuteness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500&family=Orbitron:wght@500&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="ico/poodleico.png">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo-header">
+            <a class="logo-header-link" href="pank.html">
+                <span class="logo">PankIt</span>
+            </a>
+        </div>
+
+        <div class="button-header-assist">
+            <input class="assistbuttonheader" type="button" name="" id="" value="Subscribe">
+        </div>
+
+        <form class="searchbox-form" action="#searchonpage">
+            <label class="searchbox-label" for="searchbox-box">
+                <img class="searchbox-image" src="img/searchblack.png" alt="search symbol">
+            </label>
+            <input class="searchbox-box" type="search" name="" id="searchbox-box" placeholder="Search on PankIt">
+        </form>
+        <form action="#clickonsubsbutton">
+            <div class="button-header">
+                <button class="subscribe-button">Subscribe</button>
+            </div>
+        </form>
+
+        <div class="profile-header">
+            <div>
+                <a class="profile-header-link" href="#clickonprofile">
+                    <img class="profileimage-header"
+                        src="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678130-profile-alt-4-512.png"
+                        alt="profile icon">
+                </a>
+            </div>
+            <div class="block-profiletext">
+                <a class="profile-header-link" href="#clickonprofile">
+                    <span class="profiletext">profile name</span>
+                </a>
+            </div>
+            <div>
+                <a class="profile-header-link" href="#clickonicon">
+                    <img class="profileheadericon"
+                        src="https://icon-library.com/images/menu-icon-png-3-lines/menu-icon-png-3-lines-5.jpg"
+                        alt="profile icon">
+                </a>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <nav class="navbar-main">
+            <div class="navbar__header">
+                <span class="navbar__header--text">Top trending communities</span>
+            </div>
+            <div class="navbar__body">
+                <a class="navbar__body--link" href="#clickontrendingcommunity">
+                    <div class="navbar__body--row">
+                        <span class="navbar__body--text">1</span>
+                        <img class="navbar__body--image" src="img/landscape.jpg" alt="trending community image">
+                        <span class="navbar__body--text">r/AnimalsBeingBros</span>
+                    </div>
+                </a>
+                <a class="navbar__body--link" href="#clickontrendingcommunity">
+                    <div class="navbar__body--row">
+                        <span class="navbar__body--text">2</span>
+                        <img class="navbar__body--image" src="img/landscape.jpg" alt="trending community image">
+                        <span class="navbar__body--text">r/agedlikemilk</span>
+                    </div>
+                </a>
+                <a class="navbar__body--link" href="#clickontrendingcommunity">
+                    <div class="navbar__body--row">
+                        <span class="navbar__body--text">3</span>
+                        <img class="navbar__body--image" src="img/landscape.jpg" alt="trending community image">
+                        <span class="navbar__body--text">r/dataisbeautiful</span>
+                    </div>
+                </a>
+                <a class="navbar__body--link" href="#clickontrendingcommunity">
+                    <div class="navbar__body--row">
+                        <span class="navbar__body--text">4</span>
+                        <img class="navbar__body--image" src="img/landscape.jpg" alt="trending community image">
+                        <span class="navbar__body--text">r/LifeProTips</span>
+                    </div>
+                </a>
+                <a class="navbar__body--link" href="#clickontrendingcommunity">
+                    <div class="navbar__body--row">
+                        <span class="navbar__body--text">5</span>
+                        <img class="navbar__body--image" src="img/landscape.jpg" alt="trending community image">
+                        <span class="navbar__body--text">r/oddlysatisfying</span>
+                    </div>
+                </a>
+            </div>
+            <div class="navbar__footer">
+                <button class="navbar__footer--button">View All</button>
+            </div>
+        </nav>
+
+        <div class="post-main">
+
+            <div class="box-create-post">
+
+                <div class="list-block">
+                    <label class="list-label" for="text-list">Choose a community</label>
+                    <input class="textbox-list" id="text-list" type="text" list="list">
+                    <datalist id="list">
+                        <option>r/DotA2</option>
+                        <option>r/AskReddit</option>
+                        <option>r/hmm</option>
+                        <option>r/AMA</option>
+                    </datalist>
+                </div>
+
+                <div class="box-create-post-text">
+                    <input class="textbox" type="text" placeholder="Create Post">
+                </div>
+
+                <a href="#clickonimageicon">
+                    <figure class="box-create-post-figure">
+                        <img class="box-create-post-imageicon" src="img/imageicon.png" alt="image icon">
+                    </figure>
+                </a>
+
+                <a class="box-create-post-link" href="#post">
+                    <div class="box-create-post-postbutton">
+                        <span>Post</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- FIRST POST -->
+
+            <section class="post">
+
+                <div class="votes-post">
+                    <a href="#upvote">
+                        <img class="votebutton" src="img/uparrow.png" alt="uparrow">
+                    </a>
+                    <span class="nofvotes">12.3k</span>
+                    <a href="#downvote">
+                        <img class="votebutton" src="img/downarrow.png" alt="downarrow">
+                    </a>
+                </div>
+
+                <div class="body-post">
+                    <div class="header-post">
+                        <div class="header-post-fline">
+                            <div class="post-where">
+                                <span class="where-post-text-one">Posted at: </span><span class="where-post-text-two"><a
+                                        class="where-post-link"
+                                        href="#clickonwherewasposted">where_was_posted</a></span>
+                            </div>
+                            <div class="whoposted">
+                                <span class="whoposted-text-one">Posted by: </span><span class="whoposted-text-two"><a
+                                        class="whoposted-link" href="#clickonwhoposted">who_posted</a></span>
+                            </div>
+                        </div>
+                        <div class="header-post-sline">
+                            <span class="posttitle">Post title</span>
+                            <a class="posttag-link" href="#clickontag">
+                                <span class="posttag">tag#1</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="posttext">
+                        <p class="posttext__p">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt est tenetur facilis eos
+                            eum aliquam non quisquam aliquid, dolorum sunt nulla maxime doloremque, nemo rerum?
+                            Provident ex sed maxime iste!
+                        </p>
+                    </div>
+
+                    <div class="postcommentsandmore">
+                        <a class="postcommentsandmore-text" href="#clickonpostcomments">
+                            <div class="postcommentsandmore-one">
+                                <img class="postcommentsandmore-icons" src="img/coment.png" alt="coment icon">
+                                <span>45.6k Comments</span>
+                            </div>
+                        </a>
+                        <a class="postcommentsandmore-text" href="#clickonsharepost">
+                            <div class="postcommentsandmore-two">
+                                <img class="postcommentsandmore-icons" src="img/share.png" alt="share icon">
+                                <span>Share</span>
+                            </div>
+                        </a>
+                        <a href="#clickonmoreoptpost">
+                            <div class="postcommentsandmore-three">
+                                <img class="postcommentsandmore-icons" src="img/threedots.png" alt="more icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- SECOND POST -->
+
+            <section class="post">
+
+                <div class="votes-post">
+                    <a href="#upvote">
+                        <img class="votebutton" src="img/uparrow.png" alt="uparrow">
+                    </a>
+                    <span class="nofvotes">457</span>
+                    <a href="#downvote">
+                        <img class="votebutton" src="img/downarrow.png" alt="downarrow">
+                    </a>
+                </div>
+
+                <div class="body-post">
+                    <div class="header-post">
+                        <div class="header-post-fline">
+                            <div class="post-where">
+                                <span class="where-post-text-one">Posted at: </span><span class="where-post-text-two"><a
+                                        class="where-post-link" href="#clickonwherewasposted">Chess.com</a></span>
+                            </div>
+                            <div class="whoposted">
+                                <span class="whoposted-text-one">Posted by: </span><span class="whoposted-text-two"><a
+                                        class="whoposted-link" href="#clickonwhoposted">pedrotonin</a></span>
+                            </div>
+                        </div>
+                        <div class="header-post-sline">
+                            <span class="posttitle">what a game. wow</span>
+                            <a class="posttag-link" href="#clickontag">
+                                <span class="posttag">fullgames</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="posttext">
+                        <img class="posttext__img" src="img/chessboard.gif" alt="chess board">
+                    </div>
+
+                    <div class="postcommentsandmore">
+                        <a class="postcommentsandmore-text" href="#clickonpostcomments">
+                            <div class="postcommentsandmore-one">
+                                <img class="postcommentsandmore-icons" src="img/coment.png" alt="coment icon">
+                                <span>890 Comments</span>
+                            </div>
+                        </a>
+                        <a class="postcommentsandmore-text" href="#clickonsharepost">
+                            <div class="postcommentsandmore-two">
+                                <img class="postcommentsandmore-icons" src="img/share.png" alt="share icon">
+                                <span>Share</span>
+                            </div>
+                        </a>
+                        <a href="#clickonmoreoptpost">
+                            <div class="postcommentsandmore-three">
+                                <img class="postcommentsandmore-icons" src="img/threedots.png" alt="more icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- THIRD POST -->
+
+            <section class="post">
+
+                <div class="votes-post">
+                    <a href="#upvote">
+                        <img class="votebutton" src="img/uparrow.png" alt="uparrow">
+                    </a>
+                    <span class="nofvotes">89.7k</span>
+                    <a href="#downvote">
+                        <img class="votebutton" src="img/downarrow.png" alt="downarrow">
+                    </a>
+                </div>
+
+                <div class="body-post">
+                    <div class="header-post">
+                        <div class="header-post-fline">
+                            <div class="post-where">
+                                <span class="where-post-text-one">Posted at: </span><span class="where-post-text-two"><a
+                                        class="where-post-link" href="#clickonwherewasposted">any_community</a></span>
+                            </div>
+                            <div class="whoposted">
+                                <span class="whoposted-text-one">Posted by: </span><span class="whoposted-text-two"><a
+                                        class="whoposted-link" href="#clickonwhoposted">any_user</a></span>
+                            </div>
+                        </div>
+                        <div class="header-post-sline">
+                            <span class="posttitle">Look at this title :o</span>
+                            <a class="posttag-link" href="#clickontag">
+                                <span class="posttag">tag#2</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="posttext">
+                        <p class="posttext__p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quae vero nemo voluptatem
+                            accusantium impedit dolore ex dicta perferendis esse eius ea, aperiam quasi eligendi nisi
+                            eveniet, possimus enim velit.
+                            Sequi totam culpa sunt, esse cumque eos laboriosam corporis expedita voluptates, aperiam
+                            debitis veritatis minus nihil delectus. Libero, deserunt facilis adipisci officia sed
+                            dignissimos, est aliquid aspernatur tempore excepturi repellendus.
+                            Qui provident eos cumque voluptate deleniti placeat fugit odio similique facilis dolorum
+                            nostrum libero quod vitae ipsam ratione ea atque et omnis tempora molestias molestiae
+                            asperiores, ipsa inventore eaque. Aspernatur.
+                            Earum harum numquam dolores, molestiae quod perferendis consequatur doloribus nam sunt
+                            nostrum consequuntur laudantium libero recusandae officia alias pariatur fugiat nesciunt.
+                            Possimus voluptates velit nostrum fugit laborum? Quaerat, quia id?
+                            Eligendi laborum ratione laudantium velit. Odit expedita, aliquid corporis atque culpa
+                            aliquam veritatis nesciunt neque cupiditate voluptatem rerum, ad eum nulla obcaecati,
+                            similique magnam iusto odio vel fuga dignissimos ipsa.
+                        </p>
+                    </div>
+
+                    <div class="postcommentsandmore">
+                        <a class="postcommentsandmore-text" href="#clickonpostcomments">
+                            <div class="postcommentsandmore-one">
+                                <img class="postcommentsandmore-icons" src="img/coment.png" alt="coment icon">
+                                <span>32.1k Comments</span>
+                            </div>
+                        </a>
+                        <a class="postcommentsandmore-text" href="#clickonsharepost">
+                            <div class="postcommentsandmore-two">
+                                <img class="postcommentsandmore-icons" src="img/share.png" alt="share icon">
+                                <span>Share</span>
+                            </div>
+                        </a>
+                        <a href="#clickonmoreoptpost">
+                            <div class="postcommentsandmore-three">
+                                <img class="postcommentsandmore-icons" src="img/threedots.png" alt="more icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-div__list">
+            <ul class="footer__list">
+                <li><a class="footer__list--link" href="#clickonhelp">Help</a></li>
+                <li><a class="footer__list--link" href="#clickonabout">About</a></li>
+                <li><a class="footer__list--link" href="#clickoncommunities">Communities</a></li>
+                <li><a class="footer__list--link" href="#clickonadvertise">Advertise</a></li>
+                <li><a class="footer__list--link" href="#clickonprivacypolice">Privacy Police</a></li>
+                <li><a class="footer__list--link" href="#clickonterms">Terms of Service</a></li>
+            </ul>
+
+        </div>
+
+        <span class="footer__text--span">PankIt Inc &reg; 2021 . All rights reserved</span>
+
+    </footer>
+
+
+</body>
+
+</html>
