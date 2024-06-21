@@ -218,7 +218,7 @@ main{
     display: flex;
     align-items: flex-end;
     padding: 10px;
-    background-image: url("https://www.redditstatic.com/desktop2x/img/leaderboard/banner-background.png");
+    background-image: url("https://www.redditstatic.com/desktop2x/./assets/img/leaderboard/banner-background.png");
     background-position: center;
 }
 
