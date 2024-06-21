@@ -6,13 +6,13 @@ Este projeto é uma implementação de web design inspirada no site Reddit, util
 
 ## Tecnologias Utilizadas
 
-HTML5
-CSS3
+<img src="https://img.shields.io/badge/HTML5-orange.svg?style=flat-square" alt="html badge">
+<img src="https://img.shields.io/badge/CSS3-blue.svg?style=flat-square" alt="css badge">
 
 ## Estrutura do Projeto
 
 ```plainText
-nome-do-repositorio/
+pankit-web-project/
 ├── index.html
 ├── styles/
 │   └── main.css
